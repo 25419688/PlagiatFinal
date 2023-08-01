@@ -7,6 +7,7 @@ import { faPaintRoller } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 const Offers = () => {
   return (
+    <>
     <section className="offers">
       <h2>What we Offer?</h2>
       <h3>
@@ -135,7 +136,8 @@ const Offers = () => {
           </p>
         </div>
       </div><br></br>
-    </section>
+      </section>
+      </>
   );
 };
 export default Offers;

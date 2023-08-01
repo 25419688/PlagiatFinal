@@ -15,7 +15,7 @@ export default function Footer() {
           <p>Happy customers</p>
         </div>
 
-        <h2>Want to start a project with us?</h2>
+        <h3>Want to start a project with us?</h3>
         <p>
           Select Surfaces are on sale now save while supplies last save while
           <br></br>

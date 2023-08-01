@@ -11,7 +11,11 @@ const SocialMedia = () => {
         Social Media Its Ways<br></br>Of Our Excellence.
       </h1>
       <form style={{ justifyContent: "center", display: "flex" }}>
-        <input placeholder="Enter your Email" type="email"></input>
+        <input
+          placeholder="Enter your Email"
+          type="email"
+          className="inputSocial"
+        ></input>
         <button type="submit" class="button">
           Get started
         </button>
@@ -93,16 +97,16 @@ const SocialMedia = () => {
                 height={70}
               />
               <span style={{ marginLeft: "150px" }}>
-                <a href="http://technix-technology.com/#/home">Home </a>
+                <a href="/home">Home </a>
               </span>
               <span style={{ marginLeft: "60px" }}>
-                <a href="http://technix-technology.com/#/About">About Us</a>
+                <a href="/about">About Us</a>
               </span>
               <span style={{ marginLeft: "60px" }}>
-                <a href="http://technix-technology.com/#/services">Services</a>
+                <a href="/offers">Services</a>
               </span>
               <span style={{ marginLeft: "60px" }}>
-                <a href="http://technix-technology.com/#/contact">Contact Us</a>
+                <a href="/socialMedia">Contact Us</a>
               </span>
               <span>
                 <a href="https://www.facebook.com/TechnixInfo">
@@ -117,7 +121,7 @@ const SocialMedia = () => {
                 </a>
               </span>{" "}
               <span>
-                <a href="https://www.instagram.com/technix.ig/">
+                <a href="https://instagram.com/technix_technology?igshid=MzRlODBiNWFlZA==">
                   <FontAwesomeIcon
                     icon={faInstagram}
                     style={{
